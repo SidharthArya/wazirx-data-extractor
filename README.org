@@ -1,0 +1,12 @@
+#+TITLE: Wazirx Data Extractor
+#+AUTHOR: Sidharth Arya
+
+Just run ~python extract.py~ or ~poetry run python extract.py~ to extract all the 30 minute data available till now.
+
+* Configuration Options
++ Change the number of data points you need by adding a ~limit=1000~ (say) to you ~config.cfg~ file.
++ Change the period by adding ~period=60~ (for an hour). Period is specified in minutes.
++ Add a configparser format list of markets you need as ~markets = btcinr,ethinr~.
++ Location of where the dataset is extracted can also be changed.
+
+
